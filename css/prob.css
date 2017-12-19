@@ -1,0 +1,83 @@
+  body {
+    font-family: Bahnschrift light, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+}
+  .prob {
+    text-align: center;
+    background-color: #96bece;
+    padding: 0.5vh;
+  }
+
+  main {
+    grid-row-gap: 3px;
+  }
+
+  article {
+    padding-left: 1vw;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+
+  article img {
+    grid-column: span 3;
+    grid-row: span 2;
+    width: 100%;
+  }
+
+  article h2 {
+    grid-column: span 9;
+  }
+
+  article p {
+    grid-column: span 9;
+    margin: 1vh;
+  }
+
+article ul {
+  grid-column: span 9;
+}
+  footer {
+    display: grid;
+    border: solid black 1px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2vw;
+  }
+
+  div h5 {
+    padding-top: 0.2vh;
+  }
+
+  div p {
+    font-size: 80%;
+    margin: 0;
+  }
+
+  div img {
+    padding-top: 3vh;
+    padding-right: 2vw;
+    width: 20%;
+  }
+
+  .medier {
+    align-items: center;
+    justify-items: center;
+  }
+
+  .karakter img {
+    grid-row: span 3;
+  }
+
+  h2 {
+    margin: 1vh;
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #96BECE;
+  }
