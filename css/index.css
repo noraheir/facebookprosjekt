@@ -1,0 +1,94 @@
+
+body {
+    font-family: Bahnschrift light, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    background-color: #FBFBF2;
+    margin: auto;
+
+}
+
+
+header h1 {
+    margin: auto;
+    display: grid;
+    height: 20vw;
+    background-color: #96BECE;
+    font-size: 10vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    min-width: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+div a {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+main div img {
+    border-radius: 50%;
+    width: 100%;
+}
+main div a :hover {
+    filter: blur(5px);
+}
+
+main div {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.kol1 {grid-column:span 1;}
+.kol2 {grid-column:span 2;}
+.kol3 {grid-column:span 3;}
+
+footer {
+    display: grid;
+    border: solid black 1px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2vw;
+    height: 200px;
+
+}
+
+div h5 {
+    padding-top: 0.2vh;
+}
+
+footer div p {
+    font-size: 80%;
+    margin: 0;
+}
+
+.medier {
+    padding-top: 3vh;
+    padding-right: 2vw;
+    width: 20%;
+
+
+}
+
+@media (max-width: 600px) {
+    .kol1 {grid-column:span 3;}
+    .kol2 {grid-column:span 3;}
+    .kol3 {grid-column:span 3;}
+}
+
+@media (max-width: 550px) {
+    .medier {width: 75%}
+}
