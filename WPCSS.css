@@ -1,0 +1,40 @@
+body {
+    background-image: url("http://endeavor.social/wp-content/uploads/2016/02/smart-phone-social-media.png");
+
+    text-align: center;
+    font-family: sans-serif;
+     color: white;
+    text-shadow:    1px 0 0 black,
+    -1px 0 0 black,
+    0 1px 0 black,
+    0 -1px 0 black;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+INPUT {
+    color: #99ff66;
+}
+
+
+#bilde1wp {
+    float: left;
+
+}
+a {
+    color: white;
+}
+a:hover {
+    color: lightskyblue;
+}
+
+
+
