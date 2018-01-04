@@ -35,6 +35,11 @@ a {
 a:hover {
     color: lightskyblue;
 }
+P{
+    display: inline-block;
+    text-align: left;
+}
+
 
 
 
