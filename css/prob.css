@@ -43,7 +43,7 @@ article ul {
 }
   footer {
     display: grid;
-    border: solid black 1px;
+    border-top: solid black 1px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2vw;
