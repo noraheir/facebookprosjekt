@@ -14,7 +14,7 @@ header h1 {
     display: grid;
     height: 20vw;
     background-color: #96BECE;
-    font-size: 10vw;
+    font-size: 7vw;
     align-items: center;
     justify-content: center;
 
@@ -43,7 +43,7 @@ main div img {
     border-radius: 50%;
     width: 100%;
 }
-main div a :hover {
+main div a img:hover {
     filter: blur(5px);
 }
 
