@@ -2,7 +2,8 @@
     font-family: Bahnschrift light, sans-serif;
     font-style: normal;
     font-weight: 300;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 905px;
 }
   .prob {
     text-align: center;
@@ -69,6 +70,10 @@ article ul {
   }
 
   .karakter img {
+    grid-row: span 3;
+  }
+
+  .no-wifi {
     grid-row: span 3;
   }
 
