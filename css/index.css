@@ -29,6 +29,20 @@ main {
 
 }
 
+.intro {
+    text-align: center;
+    grid-column: span 3;
+    margin: 10px 200px;
+    font-size: 2vw;
+}
+
+.intro2 {
+    text-align: center;
+    grid-column: span 3;
+    margin: 0 200px;
+    font-size: 2vw;
+}
+
 div a {
     font-size: 30px;
     color: black;
@@ -57,7 +71,7 @@ main div {
 
 footer {
     display: grid;
-    border: solid black 1px;
+    border-top: solid 1px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2vw;
